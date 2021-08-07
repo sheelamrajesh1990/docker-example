@@ -11,7 +11,7 @@ public class DemoApplication {
 
 	@GetMapping("/message")
 	public String getMessage() {
-		return "Spring Boot Docker Example";
+		return "Spring Boot Docker Example with AWS";
 	}
 
 	public static void main(String[] args) {
